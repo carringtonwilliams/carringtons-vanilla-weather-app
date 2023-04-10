@@ -10,6 +10,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+
     <link rel="stylesheet" href="src/style.css" />
     <title>Carrington's Weather App</title>
   </head>
@@ -18,10 +21,10 @@
       <div class="weather-app-wrapper">
         <div class="weather-app">
           <div class="overview">
-            <h1>Los Angeles</h1>
+            <h1 id="city"></h1>
             <ul>
               <li>Friday 05:00</li>
-              <li>Clear</li>
+              <li id="description"></li>
             </ul>
           </div>
           <div class="row">
@@ -33,7 +36,7 @@
                   id="icon"
                 />
                 <div>
-                  <strong id="temperature">83</strong
+                  <strong id="temperature"></strong
                   ><span class="units">
                     <small>°F | <a href="#">°C</a></small></span
                   >
