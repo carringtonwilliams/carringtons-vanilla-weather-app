@@ -37,9 +37,6 @@ li {
   margin-top: 10px;
 }
 
-.tagline:hover {
-}
-
 li:first-letter {
   text-transform: capitalize;
 }
