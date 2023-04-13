@@ -1,9 +1,11 @@
 body {
-  font-family: arial, serif;
+  font-family: Futura;
+  background: rgba(137, 172, 235, 0.2);
+  color: rgba(137, 172, 235, 0.2);
 }
 
 h1 {
-  color: darkblue;
+  color: #467ee0;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -19,13 +21,23 @@ li {
   margin: 0;
   padding: 0;
   list-style: none;
-  color: darkblue;
-  font-family: arial, serif;
+  color: #467ee0;
   font-size: 16px;
   font-weight: 100;
   height: 19px;
   line-height: 19px;
   text-transform: capitalize;
+}
+
+.tagline {
+  font-family: Futura;
+  text-shadow: 5px -2px 10px rgba(0, 0, 0, 0.2);
+  color: #000000;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.tagline:hover {
 }
 
 li:first-letter {
@@ -36,10 +48,14 @@ li:first-letter {
   margin: 30px auto;
 }
 
+.weather-app-inside {
+  padding: 45px;
+}
 .weather-app {
-  padding: 20px;
-  border: 3px solid darkblue;
-  border-radius: 0.2px solid darkblue;
+  border: 7px ridge #89aceb;
+  opacity: 0.8;
+  border-radius: 12px;
+  box-shadow: 10px -6px 20px 9px rgba(70, 126, 224, 0.2);
 }
 
 .overview {
@@ -55,7 +71,7 @@ li:first-letter {
 #temperature {
   font-size: 64px;
   font-weight: 400;
-  color: darkblue;
+  color: #467ee0;
   line-height: 1;
 }
 
@@ -63,11 +79,11 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -34px;
-  color: darkcyan;
+  color: #467ee0;
 }
 
 .weather-temperature .active {
-  color: darkblue;
+  color: #467ee0;
   cursor: default;
   text-decoration: none;
 }
@@ -79,14 +95,16 @@ li:first-letter {
 
 .weather-forecast-date {
   font-size: 16px;
-  color: black;
+  color: #467ee0;
   opacity: 0.5;
 }
 
 .weather-forecast-temperature-min {
   opacity: 0.5;
+  color: #467ee0;
 }
 
 .weather-forecast-temperatures {
   font-size: 13px;
+  color: #467ee0;
 }
