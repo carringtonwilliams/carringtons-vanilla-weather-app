@@ -1,5 +1,6 @@
 body {
   font-family: VictorMono-Bold, serif;
+  src: url(VictorMono-Regular.otf);
   text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   background: rgba(137, 172, 235, 0.2);
   color: rgba(137, 172, 235, 0.2);
@@ -36,6 +37,7 @@ li {
 }
 .tagline {
   font-family: VictorMono-Bold, serif;
+  src: url(VictorMono-Regular.otf);
   text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   color: white;
   text-align: center;
@@ -61,7 +63,7 @@ li:first-letter {
   padding: 45px;
   background-image: url("https://i.pinimg.com/originals/bb/e5/76/bbe576326b4defbe9e0d724286f872ea.gif");
   background-repeat: no-repeat;
-  background-size: 120%;
+  background-size: cover;
 }
 .weather-app {
   border: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
