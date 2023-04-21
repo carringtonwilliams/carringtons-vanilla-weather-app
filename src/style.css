@@ -1,5 +1,6 @@
 body {
-  font-family: Futura;
+  font-family: VictorMono-Bold, serif;
+  text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   background: rgba(137, 172, 235, 0.2);
   color: rgba(137, 172, 235, 0.2);
 }
@@ -7,6 +8,7 @@ body {
 h1 {
   color: #467ee0;
   font-size: 24px;
+  text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
@@ -23,15 +25,18 @@ li {
   list-style: none;
   color: #467ee0;
   font-size: 16px;
+  text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   font-weight: 100;
   height: 19px;
   line-height: 19px;
   text-transform: capitalize;
 }
-
+.title {
+  margin-bottom: 10px;
+}
 .tagline {
-  font-family: Futura;
-  text-shadow: 5px -2px 10px rgb(48, 133, 212);
+  font-family: VictorMono-Bold, serif;
+  text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   color: white;
   text-align: center;
   margin-top: 10px;
@@ -45,14 +50,28 @@ li:first-letter {
   margin: 30px auto;
 }
 
+.weather-app-inside-the-inside {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  opacity: 100%;
+}
+
 .weather-app-inside {
   padding: 45px;
+  background-image: url("https://i.pinimg.com/originals/bb/e5/76/bbe576326b4defbe9e0d724286f872ea.gif");
+  background-repeat: no-repeat;
+  background-size: 120%;
 }
 .weather-app {
-  border: 7px ridge #89aceb;
+  border: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
   opacity: 0.8;
   border-radius: 12px;
-  box-shadow: 10px -6px 20px 9px rgba(70, 126, 224, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .overview {
