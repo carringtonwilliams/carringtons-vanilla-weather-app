@@ -1,6 +1,12 @@
+@font-face {
+  font-family: "victor mono";
+  src: url("../assets/fonts/victormono-bold.woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
-  font-family: VictorMono-Bold, serif;
-  src: url(VictorMono-Regular.otf);
+  font-family: Victor Mono, serif;
   text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   background: rgba(137, 172, 235, 0.2);
   color: rgba(137, 172, 235, 0.2);
@@ -36,8 +42,7 @@ li {
   margin-bottom: 10px;
 }
 .tagline {
-  font-family: VictorMono-Bold, serif;
-  src: url(VictorMono-Regular.otf);
+  font-family: Victor Mono, serif;
   text-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   color: white;
   text-align: center;
