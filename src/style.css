@@ -131,3 +131,7 @@ li:first-letter {
   font-size: 13px;
   color: #467ee0;
 }
+
+.container {
+  color: #d1dfe6;
+}
